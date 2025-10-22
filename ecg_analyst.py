@@ -130,7 +130,7 @@ with analysis_col:
         st.image(image, caption="Uploaded ECG", use_column_width=True)
 
         # Analysis Button
-        if st.button("Analyze ECG with Gemini AI"):
+        if st.button("Analyze ECG"):
             
             # Convert image to base64
             image_base64 = image_to_base64(file_bytes)
