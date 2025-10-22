@@ -7,7 +7,7 @@ from PIL import Image
 # --- Configuration ---
 # NOTE: Replace this with your actual Gemini API Key (or use Streamlit Secrets)
 # WARNING: Storing API keys directly in the code is insecure for production apps.
-API_KEY = "" # Your API Key goes here if needed.
+API_KEY = "AIzaSyDxlzYbOluOFAdt7-2EPM-BlhQ77ysHkQg" # Your API Key goes here if needed.
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent"
 
 # Set a helpful system instruction to guide the model's behavior
