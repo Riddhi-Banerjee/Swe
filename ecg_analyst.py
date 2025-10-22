@@ -107,7 +107,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="main-header">🩺 Gemini ECG Scan Analyst</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">🩺 ECG Scan Analyst</p>', unsafe_allow_html=True)
 st.markdown("Upload an ECG image to get a detailed, AI-driven analysis of rhythm, morphology, and potential cardiac conditions.")
 
 # File Uploader
